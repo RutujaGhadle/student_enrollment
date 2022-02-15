@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <title>Student Enrollment</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Student Enrollment Form</h1>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div><br><br>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" placeholder="Enter your Name" id="name">
+                    </div><br>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Enter your Email">
+                    </div><br>
+                    <div>
+                        <label for="web">Website</label>
+                        <input type="text" name="web" id="web" placeholder="Website name">
+                    </div><br>
+                    <div>
+                        <label for="dep">Department</label>
+                        <input type="text" name="dep" placeholder="Enter Department Name" id="dep">
+                    </div><br>
+
+                    <div >
+                        <label for="gender">Gender</label><br>
+                       <input type="radio" id="r" name="r" value="male" class="gender"><label>Male</label><br>
+                        <input type="radio" id="r" name="r" value="female" class="gender"><label>Female</label>
+                    </div>
+
+                    <div class="form_action--button btn">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <h2>Enrollled Student</h2>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email</th>
+                                <th>Website</th>
+                                <th>Department</th>
+                                <th>Gender</th>
+                                <th>Change</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
+

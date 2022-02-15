@@ -1,0 +1,118 @@
+body{
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1
+{
+    margin-left: 35rem;
+    color: #eee;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+}
+h2
+{
+    margin-left: 10rem;
+    color: #1b1c1d;
+    text-decoration:underline;
+    text-underline-offset: 0.5rem;
+}
+table{
+    width: 80%;
+    margin: 40px auto;
+    background:linear-gradient(90deg,
+    rgb(224, 61, 189) 0%,
+  rgba(236, 75, 26, 0.918) 100%);
+}
+
+
+table.list th{
+    margin-top: .20rem;
+    width: 100%;
+    border: 1px solid rgb(240, 235, 225);
+    background-color: #1b1c1d;
+    color: white;
+    padding: 8px 15px;
+}
+
+td{
+    border: 1px solid rgb(19, 18, 18);
+    text-align: left;
+    padding: 8px 10px;
+    font-size: 1.2rem;
+    color: black;
+}
+.list td
+{
+    background-color: rgb(22, 241, 176);
+
+}
+
+input[type="text"],input[type="email"]{
+    width: 85%;
+    padding:12px 20px;
+    margin:8px 0;
+    display: inline-block;
+    border: 1px solid rgb(165,161,161);
+    border-radius: 4px;
+    font-weight: bolder;
+}
+
+label
+{
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.gender
+{
+    padding: 1rem;
+    margin: .5rem;
+    font-size: large;
+}
+input[type="submit"],input[type="reset"]{
+    background: rgb(28, 27, 29);
+    padding:14px 12px;
+    display: inline-block;
+    border: none;
+    color: #eee;
+    font-size: 1.2rem;
+    cursor: pointer;
+    outline: none;
+}
+.btn
+{
+    margin-top: 1rem;
+    margin-left: 6rem;
+}
+input[type="submit"]:hover{
+    background: #4b99d8;
+    color: black;
+}
+
+input[type="reset"]:hover{
+    background: #4b99d8;
+    color: black;
+}
+
+button{
+    background: rgb(22, 21, 21);
+    color: #eee;
+    padding:8px 14px;
+    margin:15px 0 10px;
+    display: inline-block;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    outline: none;
+}
+button .del
+{
+    background: #4b99d8;
+}
+button:hover{
+    background:#4b99d8 ;
+    color: black;
+}
+
